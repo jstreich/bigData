@@ -1,0 +1,11 @@
+Package: bigData
+Type: Package
+Title: An R Package That Can Pre-Process Large Data With Small Memory Allocations in R
+Version: 0.1.0
+Author: Jared Streich
+Maintainer: Jared Streich <streich.jared@gmail.com>
+Description: This R package has several command line tools wriiten into it's backend to pre-process data so that more meaningful amounts of data can be analyzed at a time, which includes pre-processing during data loading into memory, plus some nice commands to quickly merge, splice, or parse 1 or more large matrices
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
