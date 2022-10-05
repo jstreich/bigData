@@ -16,7 +16,7 @@ pushing the limits of command line data processing.
 
 The second half of tools are within R functions that can work much the same as
 other packages such as dplyr, etc. However, I find these functions much more
-user friendly, taking a one-liner long command, and making is much simpler in
+user friendly, taking a one-liner long command, and making it much simpler in
 function form.
 
 ################################################################################
