@@ -5,7 +5,8 @@
 ################################################################################
 # About
 ################################################################################
-This pacckage is designed to simplify data loading and processing in places 
+
+This pacckage is designed to simplify data loading and processing in places
 where other data processing types are memory intensive. 
 
 About half of the tools use commandline bash, awk, head-cut, etc, processes to 
@@ -21,6 +22,7 @@ function form.
 ################################################################################
 # Caveats
 ################################################################################
+
 Current form is Unix/Linux only. A separate Windows version is under development
 
 
