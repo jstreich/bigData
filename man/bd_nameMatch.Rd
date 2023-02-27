@@ -2,11 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_nameMatch}
 \alias{bd_nameMatch}
-\title{List of Functions}
+\title{Intersection Name Match- Name-based Cropping
+Description: Crop matrix x by matching rownames in matrix y}
 \usage{
 bd_nameMatch(x, y)
 }
 \description{
 Intersection Name Match- Name-based Cropping
-Description: crop matrix x by matching rownames in matrix y
+Description: Crop matrix x by matching rownames in matrix y
 }

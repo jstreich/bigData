@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_colRange}
 \alias{bd_colRange}
-\title{Get range of columns}
+\title{Get range of columns
+Description: Like bd_subsetRow, this function will get a random subset of columns to assess data structure and properties. Ideal if samples are encoded column wise.}
 \usage{
 bd_colRange(x, start, end, colnms, sep, rownms)
 }
 \description{
 Get range of columns
+Description: Like bd_subsetRow, this function will get a random subset of columns to assess data structure and properties. Ideal if samples are encoded column wise.
 }

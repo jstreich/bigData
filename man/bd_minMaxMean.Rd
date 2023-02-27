@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_minMaxMean}
 \alias{bd_minMaxMean}
-\title{Get the min max mean standard dev normality and quartiles of each column}
+\title{Get the min max mean standard dev normality and quartiles of each column
+Description: This function will examine a file for each column of data for specific properties: min, max, mean, median, standard deviation, normally distributed, and quartile thresholds at 0%, 25%, 50%, 75% and 100%.}
 \usage{
 bd_minMaxMean(x, sep, colnms, rownms)
 }
 \description{
 Get the min max mean standard dev normality and quartiles of each column
+Description: This function will examine a file for each column of data for specific properties: min, max, mean, median, standard deviation, normally distributed, and quartile thresholds at 0%, 25%, 50%, 75% and 100%.
 }

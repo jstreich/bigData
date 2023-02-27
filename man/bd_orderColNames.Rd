@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_orderColNames}
 \alias{bd_orderColNames}
-\title{Order by colnames}
+\title{Order by colnames
+Description: Order maxtrix x by matrix y's columns}
 \usage{
 bd_orderColNames(x, y)
 }
 \description{
 Order by colnames
+Description: Order maxtrix x by matrix y's columns
 }

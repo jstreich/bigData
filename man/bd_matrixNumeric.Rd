@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_matrixNumeric}
 \alias{bd_matrixNumeric}
-\title{Convert numeric values to numeric values}
+\title{Convert character values to numeric values
+Description: This will take a matrix with values encoded as "characters" and return them as numeric, if any.}
 \usage{
 bd_matrixNumeric(x)
 }
 \description{
-Convert numeric values to numeric values
+Convert character values to numeric values
+Description: This will take a matrix with values encoded as "characters" and return them as numeric, if any.
 }

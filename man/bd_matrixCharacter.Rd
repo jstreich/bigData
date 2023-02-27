@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_matrixCharacter}
 \alias{bd_matrixCharacter}
-\title{Convert numeric values to character values}
+\title{Convert numeric values to character values
+Description: This will return numeric data as character data, which can be useful when using numbers as classes or categorical values in predictive modelling.}
 \usage{
 bd_matrixCharacter(x)
 }
 \description{
 Convert numeric values to character values
+Description: This will return numeric data as character data, which can be useful when using numbers as classes or categorical values in predictive modelling.
 }

@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_subSetRow}
 \alias{bd_subSetRow}
-\title{Get subset of rows from file}
+\title{Get subset of rows from file
+Description: This function will randomly draw a subset of rows from a large file. This is ideal for finding distribution shape and properties from very large files- subject to one's compute memory maximum limit. This is also helpful for creating training models to export and run prediction data on.}
 \usage{
 bd_subSetRow(x, size, out, colnms, rownms, sep)
 }
 \description{
 Get subset of rows from file
+Description: This function will randomly draw a subset of rows from a large file. This is ideal for finding distribution shape and properties from very large files- subject to one's compute memory maximum limit. This is also helpful for creating training models to export and run prediction data on.
 }

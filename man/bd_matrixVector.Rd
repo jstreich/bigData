@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_matrixVector}
 \alias{bd_matrixVector}
-\title{Convert numeric values to vector values}
+\title{Convert numeric values to vector values
+Description: This function returns x as vector encoded strings row-wise}
 \usage{
 bd_matrixVector(x)
 }
 \description{
 Convert numeric values to vector values
+Description: This function returns x as vector encoded strings row-wise
 }

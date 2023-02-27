@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_2MatrixColMatch}
 \alias{bd_2MatrixColMatch}
-\title{get x from y based on two specific columns}
+\title{Get x from y based on two specific columns
+Description: If two matrices share data information, especially categorical, then matrix x can be cropped down using a specific x-column by shared data in matrix y's y-column.}
 \usage{
 bd_2MatrixColMatch(x, xc, y, yc)
 }
 \description{
-get x from y based on two specific columns
+Get x from y based on two specific columns
+Description: If two matrices share data information, especially categorical, then matrix x can be cropped down using a specific x-column by shared data in matrix y's y-column.
 }

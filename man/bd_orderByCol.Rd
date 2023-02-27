@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_orderByCol}
 \alias{bd_orderByCol}
-\title{order x by y from two specific columns}
+\title{Order x rows by y rows from two specific columns
+Description: Like bd_2MatrixColMatch, this funciton takes two matrices, x and y, but orders an x-specific column by a y-specific column.}
 \usage{
 bd_orderByCol(x, xc, y, yc)
 }
 \description{
-order x by y from two specific columns
+Order x rows by y rows from two specific columns
+Description: Like bd_2MatrixColMatch, this funciton takes two matrices, x and y, but orders an x-specific column by a y-specific column.
 }

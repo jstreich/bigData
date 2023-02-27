@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_oppositeMatch}
 \alias{bd_oppositeMatch}
-\title{Get samples in x not in y}
+\title{Get samples in x not in y
+Description: This function returns non-matching sample's of x that may be in y. This is expecially useful for making training/prediction data so desparate samples are used for prediction testing.}
 \usage{
 bd_oppositeMatch(x, y)
 }
 \description{
 Get samples in x not in y
+Description: This function returns non-matching sample's of x that may be in y. This is expecially useful for making training/prediction data so desparate samples are used for prediction testing.
 }

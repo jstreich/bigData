@@ -2,10 +2,12 @@
 % Please edit documentation in R/bigDataFunctions.R
 \name{bd_rowNamesCheck}
 \alias{bd_rowNamesCheck}
-\title{Rownames check}
+\title{Rownames Check
+Description: Creates a simple plot of dots representing the x and y positions of sample IDs, a 0.5 slope indicates perfect matching, points not on a 0.5 slope indicate sample IDs that do not correspond between data sets.}
 \usage{
 bd_rowNamesCheck(x, y)
 }
 \description{
-Rownames check
+Rownames Check
+Description: Creates a simple plot of dots representing the x and y positions of sample IDs, a 0.5 slope indicates perfect matching, points not on a 0.5 slope indicate sample IDs that do not correspond between data sets.
 }
