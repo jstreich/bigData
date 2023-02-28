@@ -39,4 +39,4 @@ bd_minMaxMean <- function(x, sep, colnms, rownms){
   colnames(fl.data.p) <- c("Mean", "Median", "StDev", "Max", "Min", "WhichMax", "WhichMin", "Normality", "Q0%", "Q25%", "Q50%", "Q75%", "Q100%")
   return(fl.data.p)
 }
-#' @export
+

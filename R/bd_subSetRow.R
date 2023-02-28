@@ -12,4 +12,4 @@ bd_subSetRow <- function(x, size, out, colnms, rownms, sep){
   system("rm rowSubSet1.jcs; rm rowSubSet2.jcs")
   return(fl)
 }
-#' @export
+

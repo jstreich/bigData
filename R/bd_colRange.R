@@ -10,4 +10,4 @@ bd_colRange <- function(x, start, end, colnms, sep, rownms){
   }
   return(output)
 }
-#' @export
+

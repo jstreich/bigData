@@ -7,4 +7,3 @@ bd_orderColNames <- function(x,y){
   x.s <- x[order(x.o), ]
   return(t(x.s))
 }
-#' @export

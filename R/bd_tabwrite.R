@@ -3,4 +3,4 @@
 bd_tabwrite <- function(x, name, rownms, colnms){
   write.table(x, nm, row.names = rn, col.names = cn, quote = F, sep = "  ")
 }
-#' @export
+

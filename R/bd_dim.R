@@ -9,4 +9,4 @@ bd_dim <- function(x){
   output <- c(as.numeric(cls), as.numeric(rws))
   return(output)
 }
-#' @export
+

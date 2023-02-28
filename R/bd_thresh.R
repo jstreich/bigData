@@ -32,4 +32,4 @@ bd_thresh <- function(x, column, colnms, rownms, threshold, sep, method){
   }
   return(output)
 }
-#' @export
+

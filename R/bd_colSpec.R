@@ -6,4 +6,4 @@ bd_colSpec <- function(x, colnms, sep, cols){
   system("rm bd_colRange.jcs")
   return(output)
 }
-#' @export
+

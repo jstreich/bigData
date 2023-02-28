@@ -7,4 +7,3 @@ bd_2MatrixColMatch <- function(x, xc, y, yc){
   n.c <- n.c[,2:ncol(n.c)]
   return(n.c)
 }
-#' @export

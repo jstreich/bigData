@@ -16,4 +16,3 @@ bd_matrixNumeric <- function(x){
   colnames(x.i.p) <- c.nms
   return(x.i.p)
 }
-#' @export

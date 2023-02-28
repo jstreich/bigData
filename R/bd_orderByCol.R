@@ -5,4 +5,4 @@ bd_orderByCol <- function(x, xc, y, yc){
   x.s <- x[order(x.o), ]
   return(x.s)
 }
-#' @export
+
