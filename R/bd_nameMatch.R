@@ -1,7 +1,11 @@
-#' List of Functions
+#' bd_nameMatch
 #'
-#' Intersection Name Match- Name-based Cropping
-#' Description: crop matrix x by matching rownames in matrix y
+#' This functions takes an intersection of the rows
+#' of two dataframes
+#'
+#' @param x Dataframe X
+#' @param y Dataframe Y
+#' 
 bd_nameMatch <- function(x, y){
   n.m <- match(rownames(x), rownames(y))
   n.b <- cbind(n.m, x)
