@@ -47,7 +47,7 @@ and/or archive them if needed later.
 # Caveats
 ################################################################################
 
-Current form is Unix/Linux only. A separate Windows version is under development
+Current form is Unix/Linux or Windows with bash installed
 
 
 
