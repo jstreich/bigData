@@ -1,5 +1,9 @@
 #' Convert numeric values to character values
 #' Description: This will return numeric data as character data, which can be useful when using numbers as classes or categorical values in predictive modelling.
+#' @param x converts a variable 2D matrix/array into numeric values sometimes changed by file encoding
+#'
+#' @return a 2D array as an all numeric data set.
+#' @export
 bd_matrixCharacter <- function(x){
   r.nms <- rownames(x)
   c.nms <- colnames(x)
