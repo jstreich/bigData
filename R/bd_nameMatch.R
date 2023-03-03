@@ -5,7 +5,7 @@
 #'
 #' @param x Dataframe X
 #' @param y Dataframe Y
-#' 
+#'
 #' @returns a dataframe with only rows that exist in
 #'           both X and Y
 #' @export
