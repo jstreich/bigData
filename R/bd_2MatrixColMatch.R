@@ -1,7 +1,5 @@
 #' Get x from y based on two specific columns
 #' Description: If two matrices share data information, especially categorical, then matrix x can be cropped down using a specific x-column by shared data in matrix y's y-column.
-<<<<<<< HEAD
-=======
 #'
 #' @param x Dataframe X
 #' @param xc X Dataframe Column
@@ -11,7 +9,6 @@
 #' @returns a dataframe with only rows that exist in
 #'           both X and Y based on a specific column of shared values.
 #' @export
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc
 bd_2MatrixColMatch <- function(x, xc, y, yc){
   n.m <- match(x[,xc], y[,yc])
   n.b <- cbind(n.m, x)

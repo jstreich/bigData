@@ -1,17 +1,14 @@
 #' Get the min max mean standard dev normality and quartiles of each column
 #' Description: This function will examine a file for each column of data for specific properties: min, max, mean, median, standard deviation, normally distributed, and quartile thresholds at 0%, 25%, 50%, 75% and 100%.
-<<<<<<< HEAD
-=======
 #'
 #' @param x a file in a directory you're interested in reading into memory, but want to get specific cols that meet a criteria
-#' @param sep the delimiter of the file, sep = "[delimiter]" 
+#' @param sep the delimiter of the file, sep = "[delimiter]"
 #' @param colnms set as true or false if you want the column names, colnms = T/F/FALSE
 #' @param rownms set as true or false if you want the row names, rownms =T/F, TRUE/FALSE
 #'
 #' @returns Returns the minimum, maximum, mean, standard deviation, normality, quartiles of each column in a file
 #'
 #' @export
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc
 bd_minMaxMean <- function(x, sep, colnms, rownms){
   system(paste("awk '{print NF}'", x, "| sort -nu | tail -n 1 > cls.jcs"))
   cls = read.delim("cls.jcs", header = F)
@@ -51,7 +48,3 @@ bd_minMaxMean <- function(x, sep, colnms, rownms){
   colnames(fl.data.p) <- c("Mean", "Median", "StDev", "Max", "Min", "WhichMax", "WhichMin", "Normality", "Q0%", "Q25%", "Q50%", "Q75%", "Q100%")
   return(fl.data.p)
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc

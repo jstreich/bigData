@@ -1,14 +1,11 @@
 #' Get Dimensions of file
 #' Description: This function returns the number of rows and columns in a data set without actually loading the file. This helps the user decide if all or part of a file should be loaded.
-<<<<<<< HEAD
-=======
 #'
 #' @param x calculates the dimensions of a file without reading it into memory
 #'
 #' @returns Prints the dimensions of a file yet to be loaded
 #'
 #' @export
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc
 bd_dim <- function(x){
   system(paste("awk '{print NF}'", x, "| sort -nu | tail -n 1 > cls.jcs"))
   system(paste("less", x, "| wc -l > rws.jcs"))
@@ -18,7 +15,3 @@ bd_dim <- function(x){
   output <- c(as.numeric(cls), as.numeric(rws))
   return(output)
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc

@@ -1,7 +1,5 @@
 #' Get range of columns
 #' Description: Like bd_subsetRow, this function will get a random subset of columns to assess data structure and properties. Ideal if samples are encoded column wise.
-<<<<<<< HEAD
-=======
 #'
 #' @param x Dataframe X
 #' @param start Dataframe Start Column
@@ -13,7 +11,6 @@
 #' @returns Reads in a file's specific column range specified by the user.
 #'
 #' @export
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc
 bd_colRange <- function(x, start, end, colnms, sep, rownms){
   system(paste("cut -d'", sep, "' -f", start, "-", end, " ", x, "> bd_colRange.jcs", sep = ""))
   output <- read.delim("bd_colRange.jcs", header = colnms, sep = sep)
@@ -24,7 +21,3 @@ bd_colRange <- function(x, start, end, colnms, sep, rownms){
   }
   return(output)
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc

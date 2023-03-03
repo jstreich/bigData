@@ -1,11 +1,5 @@
 #' Simplified write file function
 #' Description: This function will write a table of data to file using tabs delimitation without quotes
-<<<<<<< HEAD
-bd_tabwrite <- function(x, name, rownms, colnms){
-  write.table(x, nm, row.names = rn, col.names = cn, quote = F, sep = "  ")
-}
-
-=======
 #'
 #' @param x data frame to output to file
 #' @param y data frame check rowname order with
@@ -19,4 +13,3 @@ bd_tabwrite <- function(x, name, rownms, colnms){
 bd_tabwrite <- function(x, name, rownms, colnms){
   write.table(x, nm, row.names = rn, col.names = cn, quote = F, sep = "  ")
 }
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc

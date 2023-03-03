@@ -1,13 +1,10 @@
 #' Get samples in x not in y
 #' Description: This function returns non-matching sample's of x that may be in y. This is expecially useful for making training/prediction data so desparate samples are used for prediction testing.
-<<<<<<< HEAD
-=======
 #' @param x dataframe to filter anti-union of y
 #' @param y data frame to filter x rownames upon
 #'
 #' @returns Returns samples of x not found in y
 #' @export
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc
 bd_oppositeMatch <- function(x, y){
   n.m <- !match(rownames(x), rownames(y))
   n.b <- cbind(n.m, x)
@@ -15,7 +12,3 @@ bd_oppositeMatch <- function(x, y){
   n.c <- n.c[,2:ncol(n.c)]
   return(n.c)
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 599d12203e94021ff53ec25ee1eb88ccfc238bdc
