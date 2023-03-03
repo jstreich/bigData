@@ -4,7 +4,7 @@
 #' @param x data frame to order rownames on
 #' @param y data frame to order x with
 #'
-#' @return returns data frame x after ordering shared rows with data frame y
+#' @returns Returns data frame x after ordering shared rows with data frame y
 #'
 #' @export
 bd_rowNamesCheck <- function(x, y){
