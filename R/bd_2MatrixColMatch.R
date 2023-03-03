@@ -5,7 +5,7 @@
 #' @param xc X Dataframe Column
 #' @param y Dataframe y
 #' @param yc Y Dataframe Column
-#' 
+#'
 #' @returns a dataframe with only rows that exist in
 #'           both X and Y based on a specific column of shared values.
 #' @export
