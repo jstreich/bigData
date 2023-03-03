@@ -1,7 +1,8 @@
-#' Convert numeric values to character values
-#' Description: This will return numeric data as character data, which can be useful when using numbers as classes or categorical values in predictive modelling.
+#' bd_matrixCharacter
 #'
-#' Description: This will return numeric data as character data, which can be useful when using numbers as classes or categorical values in predictive modelling.
+#' Convert numeric values to character values
+#' This will return numeric data as character data, which can be useful when using numbers as classes or categorical values in predictive modelling.
+#'
 #' @param x converts a variable 2D matrix/array into character values sometimes changed by file encoding
 #'
 #' @returns A 2D array as an all character data set. Ideal for categorical data encoding even if using number symbols.

@@ -1,7 +1,8 @@
-#' Convert numeric values to vector values
-#' Description: This function returns x as vector encoded strings row-wise
+#' bd_matrixVector
 #'
-#' Description: This function returns x as vector encoded strings row-wise
+#' Convert numeric values to vector values
+#' This function returns x as vector encoded strings row-wise
+#'
 #' @param x converts a variable 2D matrix/array into vector encoding values.
 #'
 #' @returns a 2D array as an all vector data set.

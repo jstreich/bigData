@@ -1,5 +1,7 @@
+#' bd_thresh
+#'
 #' Read in values smaller, smaller-equal, exactly, greater-equal, greater than in specific column
-#' Description: This function reads in a file, but only loads specific rows of data based on minimum, exact, or maximum thresholds. This is useful if a file has many rows, but a specific column of importance, like if column seven has p-values you can only load rows where column seven is less than 0.2. Or other data types where specific categorical values, names must match, Or greater than some specific threshold, like temperature minimums in a list of measurements.
+#' This function reads in a file, but only loads specific rows of data based on minimum, exact, or maximum thresholds. This is useful if a file has many rows, but a specific column of importance, like if column seven has p-values you can only load rows where column seven is less than 0.2. Or other data types where specific categorical values, names must match, Or greater than some specific threshold, like temperature minimums in a list of measurements.
 #'
 #' @param x A/file/to/read/in/from/a/directory/filename.txt
 #' @param colnms if you want to read in column names colnms = T/F or TRUE/FALSE

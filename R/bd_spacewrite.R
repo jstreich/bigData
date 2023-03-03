@@ -1,9 +1,11 @@
+#' bd_spacewrite
+#'
 #' Simplified write file function
-#' Description: This function will write a table of data to file using space delimitation without quotes
+#' This function will write a table of data to file using space delimitation without quotes
 #'
 #' @param x data frame to output to file
 #' @param y data frame check rowname order with
-#' @param name = "[your_desired_outut_name.ext]"
+#' @param name = "your_desired_outut_name.ext"
 #' @param rownms output rownames T/F TRUE/FALSE
 #' @param colnms output colnames T/F TRUE/FALSE
 #'

@@ -1,5 +1,7 @@
+#' bd_matrixNumeric
+#'
 #' Convert character values to numeric values
-#' Description: This will take a matrix with values encoded as "characters" and return them as numeric, if any.
+#' This will take a matrix with values encoded as "characters" and return them as numeric, if any.
 #'
 #' @param x converts a variable 2D matrix/array into numeric values sometimes changed by file encoding
 #'

@@ -1,8 +1,10 @@
+#' bd_minMaxMean
+#'
 #' Get the min max mean standard dev normality and quartiles of each column
-#' Description: This function will examine a file for each column of data for specific properties: min, max, mean, median, standard deviation, normally distributed, and quartile thresholds at 0%, 25%, 50%, 75% and 100%.
+#' This function will examine a file for each column of data for specific properties: min, max, mean, median, standard deviation, normally distributed, and quartile thresholds at 0%, 25%, 50%, 75% and 100%.
 #'
 #' @param x a file in a directory you're interested in reading into memory, but want to get specific cols that meet a criteria
-#' @param sep the delimiter of the file, sep = "[delimiter]"
+#' @param sep the delimiter of the file, sep = "delimiter"
 #' @param colnms set as true or false if you want the column names, colnms = T/F/FALSE
 #' @param rownms set as true or false if you want the row names, rownms =T/F, TRUE/FALSE
 #'

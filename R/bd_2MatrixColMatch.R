@@ -1,5 +1,7 @@
+#' bd_2MatrixColMatch
+#'
 #' Get x from y based on two specific columns
-#' Description: If two matrices share data information, especially categorical, then matrix x can be cropped down using a specific x-column by shared data in matrix y's y-column.
+#' If two matrices share data information, especially categorical, then matrix x can be cropped down using a specific x-column by shared data in matrix y's y-column.
 #'
 #' @param x Dataframe X
 #' @param xc X Dataframe Column

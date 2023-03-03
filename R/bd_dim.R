@@ -1,5 +1,7 @@
+#' bd_dim
+#'
 #' Get Dimensions of file
-#' Description: This function returns the number of rows and columns in a data set without actually loading the file. This helps the user decide if all or part of a file should be loaded.
+#' This function returns the number of rows and columns in a data set without actually loading the file. This helps the user decide if all or part of a file should be loaded.
 #'
 #' @param x calculates the dimensions of a file without reading it into memory
 #'

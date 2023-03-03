@@ -1,5 +1,7 @@
+#' bd_colRange
+#'
 #' Get range of columns
-#' Description: Like bd_subsetRow, this function will get a random subset of columns to assess data structure and properties. Ideal if samples are encoded column wise.
+#' Like bd_subsetRow, this function will get a random subset of columns to assess data structure and properties. Ideal if samples are encoded column wise.
 #'
 #' @param x Dataframe X
 #' @param start Dataframe Start Column

@@ -1,5 +1,7 @@
+#' bd_orderColNames
+#'
 #' Order by colnames
-#' Description: Order maxtrix x by matrix y's columns
+#' Order maxtrix x by matrix y's columns
 #' @param x data frame X
 #' @param y data frame Y
 #'

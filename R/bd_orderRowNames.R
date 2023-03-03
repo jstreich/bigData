@@ -1,7 +1,8 @@
-#' Order by Rownames
-#' Description: Order matrix rownames by matrix y's rowname order
+#' bd_orderRowNames
 #'
-#' Description: Order matrix rownames by matrix y's rowname order
+#' Order by Rownames
+#' Order matrix rownames by matrix y's rowname order
+#'
 #' @param x data frame to order rownames on
 #' @param y data frame to order x with
 #'

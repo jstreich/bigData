@@ -1,5 +1,7 @@
+#' bd_orderByCol
+#'
 #' Order x rows by y rows from two specific columns
-#' Description: Like bd_2MatrixColMatch, this funciton takes two matrices, x and y, but orders an x-specific column by a y-specific column.
+#' Like bd_2MatrixColMatch, this funciton takes two matrices, x and y, but orders an x-specific column by a y-specific column.
 #'
 #' @param x data frame to order upon
 #' @param xc column of x to order upon
