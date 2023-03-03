@@ -12,4 +12,3 @@ bd_oppositeMatch <- function(x, y){
   n.c <- n.c[,2:ncol(n.c)]
   return(n.c)
 }
-
