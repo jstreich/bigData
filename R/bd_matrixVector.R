@@ -22,4 +22,3 @@ bd_matrixVector <- function(x){
   colnames(x.i.p) <- c.nms
   return(x.i.p)
 }
-
