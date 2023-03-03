@@ -3,7 +3,7 @@
 #' @param x dataframe to filter anti-union of y
 #' @param y data frame to filter x rownames upon
 #'
-#' @return Returns samples of x not found in y
+#' @returns Returns samples of x not found in y
 #' @export
 bd_oppositeMatch <- function(x, y){
   n.m <- !match(rownames(x), rownames(y))
