@@ -8,7 +8,7 @@
 #' @param sep sep = "" set delimiter
 #' @param rownms rowumn names present T/F
 #' 
-#' @reads in a file's specific column range specified by the user.
+#' @returns Reads in a file's specific column range specified by the user.
 #'
 #' @export
 bd_colRange <- function(x, start, end, colnms, sep, rownms){
