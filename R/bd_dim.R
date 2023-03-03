@@ -3,7 +3,7 @@
 #'
 #' @param x calculates the dimensions of a file without reading it into memory
 #'
-#' @return prints the dimensions of a file yet to be loaded
+#' @returns Prints the dimensions of a file yet to be loaded
 #'
 #' @export
 bd_dim <- function(x){
