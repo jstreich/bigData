@@ -1,5 +1,9 @@
 #' Convert character values to numeric values
 #' Description: This will take a matrix with values encoded as "characters" and return them as numeric, if any.
+#' @param x converts a variable 2D matrix/array into numeric values sometimes changed by file encoding
+#'
+#' @return a 2D array as an all numeric data set. Ideal for changing encoding from data of multiple file encoding types.
+#' @export
 bd_matrixNumeric <- function(x){
   r.nms <- rownames(x)
   c.nms <- colnames(x)
