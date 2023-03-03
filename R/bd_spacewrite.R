@@ -8,7 +8,6 @@
 #'
 #' @return returns data frame x after ordering shared rows with data frame y
 #' @export
-
 bd_spacewrite <- function(x, name, rownms, colnms){
   write.table(x, nm, row.names = rownms, col.names = colnms, quote = F, sep = " ")
 }
