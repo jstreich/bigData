@@ -6,7 +6,7 @@
 #' @param rownms if you want to read in row names colnms = T/F or TRUE/FALSE
 #' @param threshold A numeric value to set filtering upon before a file is actually loaded into memory.
 #' @param sep Set for delimter of the file you're reading in from, sep = "[delimiter]"
-#' @param method The type of thresholding filter method: "smaller" = max value, "smaller-equal" = min equal value, "greater-equal" = max or equal value, "greater" = minimum value, "exactly" = exact values (ideal for loading categorical constraints), 
+#' @param method The type of thresholding filter method: "smaller" = max value, "smaller-equal" = min equal value, "greater-equal" = max or equal value, "greater" = minimum value, "exactly" = exact values (ideal for loading categorical constraints)
 #'
 #' @returns A filtered version of a file based on specified column and column filtering conditions during data loading of a large file.
 #'
