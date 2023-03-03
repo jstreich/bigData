@@ -3,7 +3,7 @@
 #'
 #' @param x converts a variable 2D matrix/array into numeric values sometimes changed by file encoding
 #'
-#' @return a 2D array as an all numeric data set. Ideal for changing encoding from data of multiple file encoding types.
+#' @returns a 2D array as an all numeric data set. Ideal for changing encoding from data of multiple file encoding types.
 #'
 #' @export
 bd_matrixNumeric <- function(x){
