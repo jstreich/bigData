@@ -6,7 +6,7 @@
 #' @param colnms set as true or false if you want the column names, colnms = T/F/FALSE
 #' @param rownms set as true or false if you want the row names, rownms =T/F, TRUE/FALSE
 #'
-#' @return returns the minimum, maximum, mean, standard deviation, normality, quartiles of each column in a file
+#' @returns Returns the minimum, maximum, mean, standard deviation, normality, quartiles of each column in a file
 #'
 #' @export
 bd_minMaxMean <- function(x, sep, colnms, rownms){
