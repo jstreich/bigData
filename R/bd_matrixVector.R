@@ -1,5 +1,9 @@
 #' Convert numeric values to vector values
 #' Description: This function returns x as vector encoded strings row-wise
+#' @param x converts a variable 2D matrix/array into vector encoding values.
+#'
+#' @return a 2D array as an all vector data set.
+#' @export
 bd_matrixVector <- function(x){
   r.nms <- rownames(x)
   c.nms <- colnames(x)
