@@ -6,7 +6,7 @@
 #' @param rownms rown names T/F
 #' @param sep set the delimter sep = "[delimiter]"
 #' @param cols a range of columns in a variable, example variable: set.cols <- c(1:20,45:235,545:997)
-#' 
+#'
 #' @returns Reads in a file with specified column ranges as variables
 #'
 #' @export
@@ -16,4 +16,3 @@ bd_colSpec <- function(x, colnms, sep, cols){
   system("rm bd_colRange.jcs")
   return(output)
 }
-
