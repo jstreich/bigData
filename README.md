@@ -1,6 +1,11 @@
 
 ###  ***** This is a beta version, and is still under construction ***** ###
 
+March 8th 2023: Still debugging this package. For some reason the functions
+are not actually downloading with the package pull on external machines.
+I've worked through many possible solutions with git hub experts and we still
+can't quite get them to pull. I'll likely just rebuild this near-from-scratch
+and see if that remedies the problem.
 
 ################################################################################
 # bigData
